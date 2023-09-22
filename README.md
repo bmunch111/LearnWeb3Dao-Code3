@@ -1,13 +1,11 @@
 
 ### network swisstronik 
 
-#### Req
+#### Req and response 
 
 ```shell
 npx hardhat run scripts/getStorage.js --network swisstronik
 ```
-
-#### response
 
 ```shell
 {
@@ -22,14 +20,12 @@ Storage Value at Slot 0: 0x0xc73e7f645a2bf1365a0903afa03a2cb5029ba989df7844b0fe7
 
 ### Network sepolia
 
-#### req
+#### req and Response
 
 ```shell
 npx hardhat run scripts/getStorage.js --network sepolia
 ```
-
-#### Response
-
+ 
 ```shell
 {
   contract: '0xf84Df872D385997aBc28E3f07A2E3cd707c9698a',
@@ -42,13 +38,11 @@ Storage Value at Slot 0: 0x0x000000000000000000000000000000000000000000000000000
 ```
 
 ### Network Mumbai
-#### Request
+#### Request and Response
 
 ```shell
 npx hardhat run scripts/getStorage.js --network mumbai
 ```
-
-#### Response
 
 ```shell
 {
